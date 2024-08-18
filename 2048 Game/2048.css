@@ -1,0 +1,158 @@
+@font-face { font-family: "Ga Maamli"; src: url(../assets/GaMaamli-Regular.ttf); } 
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-size: cover;
+    background-color: #131842;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: "Ga Maamli";
+    color: #E68369;
+    font-size: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    flex-wrap: wrap;
+  }
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-right: 3px;
+    border-radius: 5px;
+  }
+  
+  a:hover, a.active {
+    background-color: whitesmoke;
+    color: black;
+  }
+hr {
+    width: 500px;
+}
+main{
+  background: linear-gradient(to bottom,#2a5298, #683311); 
+  min-height: 82vh;
+}
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2{
+  color: white;
+}
+h2 span{
+  color: red;
+}
+.num2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.num4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.num8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.num16 {
+    background-color: #f59575;
+    color: white;
+}
+
+.num32 {
+    background-color: #f57c5f;
+    color: white;
+}
+
+.num64 {
+    background-color: #f65d3b;
+    color: white;
+}
+
+.num128 {
+    background-color: #edce71;
+    color: white;
+}
+
+.num256 {
+    background-color: #edcc63;
+    color: white;
+}
+
+.num512 {
+    background-color: #edc651;
+    color: white;
+}
+
+.num1024 {
+    background-color: #eec744;
+    color: white;
+}
+
+.num2048 {
+    background-color: #ecc230;
+    color: white;
+}
+
+.num4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.num8192 {
+    background-color: #ff2020;
+    color: white;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131842;
+  height: 8vh;
+  color: whitesmoke;
+}
+
+footer span {
+  font-family: "Ga Maamli", sans-serif;
+  color: #E68369;
+  font-size: 25px;
+}
